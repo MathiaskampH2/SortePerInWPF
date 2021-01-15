@@ -1,0 +1,16 @@
+﻿<Window x:Class="SortePerInWPF.Start"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SortePerInWPF"
+        mc:Ignorable="d"
+        Title="Start" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="HeadLine" Content="Sorteper" HorizontalAlignment="Left" Margin="321,77,0,0" VerticalAlignment="Top" Height="60" Width="414"/>
+        <Label x:Name="Name" Content="Name" HorizontalAlignment="Left" Margin="321,142,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxName" HorizontalAlignment="Left" Height="23" Margin="326,168,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="326,196,0,0" VerticalAlignment="Top" Width="120" Click="StartButton_Click"/>
+
+    </Grid>
+</Window>
